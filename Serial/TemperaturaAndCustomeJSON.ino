@@ -4,12 +4,12 @@ void setup() {
 }
 
 void JSONexpert(int num) {
-    Serial.println("{");
+    Serial.print("{");
     Serial.print(" 't':");
     Serial.print(num);
-    Serial.println(",");
+    Serial.print(",");
     Serial.print(" 'id':");
-    Serial.println("'termometr'");
+    Serial.print("'termometr'");
     Serial.println("}");
 };
 
